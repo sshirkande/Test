@@ -1,0 +1,8 @@
+<h2>Custom Block</h2>
+
+<?php
+
+echo $block->getLayout()
+->createBlock('Magento\Cms\Block\Block')
+->setBlockId('my_custom_identifier') // cms block identifier
+->toHtml();
